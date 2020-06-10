@@ -13,10 +13,11 @@ body {
   margin: 0;
 }
 .down-up>img{width:100%}
-
-
-
-
+iframe{float: left;margin-bottom: 10px;}
+.about .about-us p{color: #666;text-indent: 2em;margin-bottom: 20px;line-height: 1.6em;}
+.about .about-us span{color: #2dae36;}
+.about-txt{text-align: left;}
+.about-us{padding-top: 20px;}
 
 .top-content .navbar-default .navbar-toggle .icon-bar{background: #2dae36;}
 .top-content .navbar-default .navbar-toggle{margin-top: 23px;border-color: #2dae36;}
