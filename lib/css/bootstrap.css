@@ -18,7 +18,6 @@ iframe{float: left;margin-bottom: 10px;}
 .about .about-us span{color: #2dae36;}
 .about-txt{text-align: left;}
 .about-us{padding-top: 20px;}
-
 .top-content .navbar-default .navbar-toggle .icon-bar{background: #2dae36;}
 .top-content .navbar-default .navbar-toggle{margin-top: 23px;border-color: #2dae36;}
 .top-content .navbar-default .navbar-toggle:hover{border-color: white;background-color:#2dae36;}
@@ -34,16 +33,24 @@ iframe{float: left;margin-bottom: 10px;}
 		text-align: left;
   }
 }
-@media (min-width:769px){
+@media (min-width: 768px){
+  .down-up{margin-top: 0!important;}
+}
+@media (min-width: 768px) and (max-width:975px){
   .top-content .navbar-brand{
     width:50px;
   }
+  .bottom-content .col-md-6 .col-md-3{
+    text-align: left;
+    padding:0;
+  }
+  .bottom-content>.col-md-3{
+    text-align: left;
+  }
+  .bottom-content .copyright{text-align: left;}
 }
-
-
-
 .selected{  
-  color: #2dae36;
+  color: #2dae36 !important;
   border-bottom: 2px solid #2dae36;
 }
 .content{padding-left: 10%;padding-right: 10%;margin-left: auto;margin-right: auto;}
@@ -52,7 +59,7 @@ iframe{float: left;margin-bottom: 10px;}
 .content h3{text-align: center;margin-bottom: 50px}
 .spirits{margin-bottom: 16px;}
 .spirits img{width:30%;vertical-align: middle;}
-.spirits-title{font-size: 28px;color: #2dae36;}
+.content .col-md-3 .spirits-title{font-size: 28px;color: #2dae36;}
 .col-md-3 p{font-size: 14px;color: #666;}
 .product,.about{width:100%;margin-bottom: 50px;overflow: hidden;}
 .product-show,.about-muxi{height: 42px;margin-bottom: 10px;border-bottom: 1px solid #2dae36;margin-top:50px;}
@@ -63,10 +70,10 @@ iframe{float: left;margin-bottom: 10px;}
 .bottom-content{margin-left: auto;margin-right: auto;padding-left: 10%;padding-right: 10%;}
 .bottom-content img{width:100px}
 .copyright{text-align: center;margin-top: 10px;}
-.col-md-6 a{color: #777;text-align: center;text-decoration: none;}
+.bottom-box .col-md-6 a{color: #777;text-align: center;text-decoration: none;}
 .col-md-6 .col-md-3{margin-top: 20px;margin-bottom: 10px;}
 .col-md-6 a:hover{color: #2dae36;text-decoration: none;}
-
+.contact{text-align: left;}
 
 
 article,

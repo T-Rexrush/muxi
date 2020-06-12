@@ -6,12 +6,13 @@
     <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
     <title>百度地图API自定义地图</title>
     <!--引用百度地图API-->
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=9j3yZcpsk3YqHKKyq3GI5mbqDWQp05B8"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=TCxUpax5M5zwqtWE7BroQWzcC3YyAYKR"></script>
   </head>
+  
   <body>
     <!--百度地图容器-->
     <div style="width:700px;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div>
-    <p style="color:#2dae36;font-weight:600">地图生成工具基于百度地图JS api v2.0版本开发，使用请申请密匙。
+    <p style="color:red;font-weight:600">地图生成工具基于百度地图JS api v2.0版本开发，使用请申请密匙。
       <a href="http://developer.baidu.com/map/index.php?title=jspopular/guide/introduction" style="color:#2f83c7" target="_blank">了解如何申请密匙</a>
       <a href="http://lbsyun.baidu.com/apiconsole/key?application=key" style="color:#2f83c7" target="_blank">申请密匙</a>
     </p>
@@ -26,7 +27,7 @@
     }
     function createMap(){ 
       map = new BMap.Map("map"); 
-      map.centerAndZoom(new BMap.Point(114.439537,30.463512),17);
+      map.centerAndZoom(new BMap.Point(114.229153,30.605416),18);
     }
     function setMapEvent(){
       map.enableScrollWheelZoom();
@@ -41,7 +42,7 @@
     }
     function addMapOverlay(){
       var markers = [
-        {content:"",title:"木兮地板湖北营销中心",imageOffset: {width:0,height:3},position:{lat:30.463808,lng:114.440633}}
+        {content:"",title:"木兮地板湖北营销中心",imageOffset: {width:-46,height:-21},position:{lat:30.605727,lng:114.228237}},
       ];
       for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
